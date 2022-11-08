@@ -17,16 +17,23 @@
 	<header class="cabeceraPrincipal">
 		<section class="logotipo"><img src="images/logotipoPet.png"></section>
 		<nav class="menuPrincipal">
-			<a href="#">Inicio</a>
-			<a href="#">Servicios</a>
-			<a href="#">Productos</a>
-			<a href="#">Adopción</a>
-			<a href="#">Contactos</a>
+			<a href="#">INICIO</a>
+			<a href="#">PROYECTO</a>
+			<a href="#">DONACIÓN</a>
+			<a href="#">ADOPTA</a>
+			<a href="#">SERVICIOS</a>
+			<a href="#">CONTACTOS</a>
 		</nav>
 	</header>
-	<section class="sliderPrincipal"><img src="images/perros.jpg"></section>
+	<section class="sliderPrincipal">
+		<div class="proadop">
+			<p>Proyecto de adopción de mascotas</p>
+			<button>ADOPTANOS</button>
+		</div>		
+		<img src="images/perros.jpg">
+	</section>
 	<section class="titulo">
-	<h2>Adopcion</h2>
+	<h2>En Adopción</h2>
 	</section>
 	<section class="adopcion1">
 		<img src="images/lobita.jpg">
@@ -36,12 +43,31 @@
 		<button>Mas informacion</button>
 		</section>
 	</section>
-	<section class="adopcion2"><h3>Noticia 2</h3></section>
-	<section class="doctor">
-		<h3>Doctores</h3>
-	</section>
+	<section class="adopcion2">
+		<img src="images/linda.jpg">
+		<section class="cardog2">
+		<h3>Linda</h3>
+		<p>Nacida en miami, tiene 2 años de edad, es muy juguetona y necesita una familia</p>
+		<button>Mas informacion</button>
+		</section>
+	</section>	
+	<div class="doctor">
+		<section class="d1">
+			<img src="images/d1.jpg">
+		</section>
+		<section class="d2">
+			<img src="images/d2.jpg">
+		</section>
+		<section class="d3">
+			<img src="images/d3.jpg">
+		</section>
+		<section class="d4">
+			<img src="images/d4.jpg">
+		</section>
+	</div>		
 	<section class="sponsor">
-		<h3>Sponsor</h3>
+		<img src="images/logotipoPet.png">
+		<img src="images/utpl.png">
 	</section>
 	<footer class="piePagina">
 		<section class="derechos">

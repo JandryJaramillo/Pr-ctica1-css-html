@@ -27,26 +27,22 @@ body{
 /*HEADER*/
 .contenedor .cabeceraPrincipal{
 	grid-area: header;
-	background-color: #BDECB6;
+	background-color: #B5EF8A;
 	display: flex;
 	justify-content: space-between;
 }
-
 .contenedor .cabeceraPrincipal .logotipo{
 	padding: 10px 40px;
 }
-
 .contenedor .cabeceraPrincipal nav{
 	display: flex;
 	align-items: center;
 }
-
 .contenedor .cabeceraPrincipal nav a{
 	text-decoration: none;
 	padding: 0 20px;
 	color: #65524D;
 }
-
 .contenedor .cabeceraPrincipal nav a:hover{
 	background-color: #65524D;
 	color: #FFF;
@@ -56,10 +52,24 @@ body{
 	grid-area: slider;
 	background-color: #333;
 }
-
 .contenedor .sliderPrincipal img{
 	width: 100%;
 }
+.contenedor .sliderPrincipal .proadop{
+	background-color: #FFF;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 90px;
+	margin-right: 10px;
+	width: 55%;
+	height: 20%;
+	opacity: 70%;
+	border-radius: 10px;
+}
+.contenedor .sliderPrincipal .proadop p{
+	opacity: 100%;
+}
+/*CUERPO*/
 .contenedor .titulo{
 	grid-area: titulo;
 	background-color: #FFF;
@@ -77,36 +87,105 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
-
 .contenedor .adopcion1 .cardog h3 {
 	font-size: 25px;
 	color: #817E9F;
 	text-transform: uppercase;
 	padding: 5px 10px;
 }
-
 .contenedor .adopcion1 .cardog p {	
 	color: #605B5B;
 	padding: 5px 10px;
 }
-
 .contenedor .adopcion1 .cardog button {
 	display: flex;
 	margin-top: 15px;
 	margin-left: 50px;
 }
-
-.contenedor .adopcion2{
+.contenedor .adopcion2 {
 	grid-area: adopta2;
-	background-color: #333;
+	background-color: #FFF;
+	display: flex;
+	justify-content: space-between;
+}
+.contenedor .adopcion2 .cardog2 h3 {
+	font-size: 25px;
+	color: #817E9F;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+.contenedor .adopcion2 .cardog2 p {	
+	color: #605B5B;
+	padding: 5px 10px;
+}
+.contenedor .adopcion2 .cardog2 button {
+	display: flex;
+	margin-top: 15px;
+	margin-left: 60px;
 }
 .contenedor .doctor{
 	grid-area: doctor;
-	background-color: #333;
+	background-color: #fff;
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(1, auto);
+
+	grid-template-areas: "d1 d2 d3 d4";						 
 }
+.contenedor .doctor .d1 {
+	grid-area: d1;
+	background-color: #FFF;
+	display: flex;
+	justify-content: space-between;
+}
+.contenedor .doctor .d1 img{
+	max-width: 100%;
+	max-height: 100%;
+	padding: 20px;
+}
+.contenedor .doctor .d2 {
+	grid-area: d2;
+	background-color: #FFF;
+	display: flex;
+	justify-content: space-between;
+}
+.contenedor .doctor .d2 img{
+	max-width: 100%;
+	max-height: 100%;
+	padding: 20px;
+}
+.contenedor .doctor .d3 {
+	grid-area: d3;
+	background-color: #FFF;
+	display: flex;
+	justify-content: space-between;
+}
+.contenedor .doctor .d3 img{
+	max-width: 100%;
+	max-height: 100%;
+	padding: 20px;
+}
+.contenedor .doctor .d4 {
+	grid-area: d4;
+	background-color: #FFF;
+	display: flex;
+	justify-content: space-between;
+}
+.contenedor .doctor .d4 img{
+	max-width: 90%;
+	max-height: 100%;
+	padding: 20px;
+}
+/*SPONSOR*/
 .contenedor .sponsor{
 	grid-area: sponsor;
 	background-color: #333;
+	align-items: center;
+}
+.contenedor .sponsor img {
+	padding: 20px;
+
 }
 /*FOOTER*/
 .contenedor .piePagina{
@@ -116,24 +195,20 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
-
 .piePagina .derechos{
 	padding: 30px 50px;
 	color: #A3A3A3;
 }
-
 .piePagina .redesSociales{
 	display: flex;
 	align-items: center;
 }
-
 .piePagina .redesSociales a{
 	color: #D7F171;
 	text-decoration: none;
 	padding: 0px 15px;
 	font-size: 35px;
 }
-
 .piePagina .redesSociales a:hover{
 	color: #FFF;
 }
